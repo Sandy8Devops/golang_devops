@@ -1,0 +1,44 @@
+Intro
+---
+open source by Google
+multi-thread/concurreny with goroutine like virtual threads
+
+docker/kubernetes are written in go
+so very lightweight and supports distributed environment
+
+integrating with cloud sdk providers and kubernetes is supported
+
+Setup
+----
+use VStudio code
+1. download go sdk (go.dev)
+2. download go extension for Vstudio
+
+test.go
+----
+package main //it can be any thing like sandy, yahoo.. only to refer test with pacakage later
+import "fmt"
+func main(){
+fmt.Print("Welcome to Go")
+}
+
+build and run
+building 
+----
+$go build test.go 
+Sandeshs-MBP:GoLangDevOps sandeshlamsal$ ls
+test    test.go
+a binary file test is created
+
+run the script
+$ ./test 
+Welcome to Go
+
+Run without building
+$ go run go.test
+
+
+$ go run test.go
+
+
+
